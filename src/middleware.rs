@@ -24,7 +24,7 @@ impl AfterMiddleware for ResponseTime {
     }
 }
 
-pub fn apply_middleware(chain: &mut Chain){
+pub fn apply_middleware(chain: &mut Chain) {
     chain.link_before(ResponseTime);
     chain.link_after(ResponseTime);
 }

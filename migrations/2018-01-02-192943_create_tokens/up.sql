@@ -1,0 +1,6 @@
+CREATE TABLE tokens (
+  id SERIAL PRIMARY KEY,
+  token TEXT NOT NULL,
+	created TIMESTAMP NOT NULL,
+	table_users_id INTEGER NOT NULL
+)

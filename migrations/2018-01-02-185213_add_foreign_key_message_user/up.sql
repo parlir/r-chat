@@ -1,0 +1,1 @@
+ALTER TABLE messages ADD COLUMN table_users_id INTEGER NOT NULL
